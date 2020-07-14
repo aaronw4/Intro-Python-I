@@ -43,6 +43,5 @@ else:
   year = sys.argv[2]
   month = sys.argv[1]
 
-print(calendar.monthcalendar(int(year), int(month)))
-print(len(sys.argv))
+print(calendar.TextCalendar().prmonth(int(year), int(month)))
 
